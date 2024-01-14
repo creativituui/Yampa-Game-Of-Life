@@ -33,7 +33,7 @@ initSDL (screenWidth, screenHeight) = do
       "SDL / OpenGL Example"
       SDL.defaultWindow
         { SDL.windowInitialSize = SDL.V2 screenWidth screenHeight,
-          SDL.windowGraphicsContext = SDL.OpenGLContext SDL.defaultOpenGL
+          SDL.windowGraphicsContext = SDL.OpenGLContext SDL.defaultOpenGL {SDL.glProfile = SDL.Core SDL.Normal 4 1}
         }
 
   SDL.showWindow window
