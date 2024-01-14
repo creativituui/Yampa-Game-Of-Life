@@ -41,13 +41,13 @@ library
     , OpenGLRaw ==3.3.4.*
     , Yampa
     , base >=4.7 && <5
-    , bytestring ==0.10.12.1
+    , bytestring  >= 0.10.4.0 && <0.12
     , containers
     , lens
     , linear
     , mtl ==2.2.2
     , random
-    , sdl2 ==2.5.3.0
+    , sdl2 ==2.5.5.0
     , split
     , text >=1.2.5.0
     , vector ==0.12.3.1
@@ -65,14 +65,14 @@ executable haskellsdl-exe
     , OpenGLRaw ==3.3.4.*
     , Yampa
     , base >=4.7 && <5
-    , bytestring ==0.10.12.1
+    , bytestring  >= 0.10.4.0 && <0.12
     , containers
     , haskellsdl
     , lens
     , linear
     , mtl ==2.2.2
     , random
-    , sdl2 ==2.5.3.0
+    , sdl2 ==2.5.5.0
     , split
     , text >=1.2.5.0
     , vector ==0.12.3.1
@@ -91,14 +91,14 @@ test-suite haskellsdl-test
     , OpenGLRaw ==3.3.4.*
     , Yampa
     , base >=4.7 && <5
-    , bytestring ==0.10.12.1
+    , bytestring  >= 0.10.4.0 && <0.12
     , containers
     , haskellsdl
     , lens
     , linear
     , mtl ==2.2.2
     , random
-    , sdl2 ==2.5.3.0
+    , sdl2 ==2.5.5.0
     , split
     , text >=1.2.5.0
     , vector ==0.12.3.1
