@@ -13,7 +13,6 @@ import qualified SDL.Vect as SDL
 import GHC.Float (int2Double, double2Float, int2Float)
 import Control.Arrow (arr)
 import Data.IORef (newIORef)
-import qualified GHC.Event.Windows.Clock as SDL
 import Control.Concurrent
 import FRP.Yampa (identity)
 import Board (defaultGame, GameOfLife (cellBuffer, numOfCells, GameOfLife), calculateNextFrame)
